@@ -156,7 +156,7 @@ main div span{
 main p {
     margin-top: 3rem;
     text-align: center;
-    text-shadow: 0 0 5px #f70202a2;
+    text-shadow: 0 0 5px #ffff;
 }
 main button {
     padding: 0.55rem 1.2rem;
@@ -167,7 +167,12 @@ main button {
     background: rgb(17, 141, 44);
     color: #fafafa;
     box-shadow: 0 0 4px #e1f17859;
-}
+    }
+
 main button:hover {
     cursor: pointer;
+}
+
+.anasayf {
+    text-decoration: none;
 }
