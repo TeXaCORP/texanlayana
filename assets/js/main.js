@@ -45,7 +45,7 @@ function activateEasterEgg() {
         "ε(´｡•_•`)っ 💔"
     );
     setTimeout(() => {
-        window.location.href = "/galery.html";
+        window.location.href = "./404.html";
     }, 2500);
 }
 
@@ -69,10 +69,10 @@ function reloadlanyard() {
     );
 
     lanyardelement.innerHTML =
-        '<img src="https://lanyard.cnrad.dev/api/526822284694913042?theme=dark&borderRadius=30px&showDisplayName=true&idleMessage=Come%20back%20to%20me,%20my%20little%20butterfly.&' +
+        '<img src="https://lanyard.cnrad.dev/api/758298518494117949?theme=dark&borderRadius=30px&showDisplayName=true&idleMessage=Come%20back%20to%20me,%20my%20little%20butterfly.&' +
         lanyarddatee +
         '" />';
-}
+       }
 
 setInterval(reloadlanyard, 15000);
 
