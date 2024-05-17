@@ -45,7 +45,7 @@ function activateEasterEgg() {
         "ε(´｡•_•`)っ 💔"
     );
     setTimeout(() => {
-        window.location.href = "./404.html";
+        window.location.href = "./secret.html";
     }, 2500);
 }
 
