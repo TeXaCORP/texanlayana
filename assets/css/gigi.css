@@ -1,0 +1,236 @@
+/* CURSOR */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+.star {
+  transform-style: preserve-3d;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  color: red;
+}
+.star:before {
+  position: absolute;
+  content: "\2726";
+  color: inherit;
+  inset: 0;
+  box-shadow: 0 0 1em 0.5em #a3c2;
+  filter: drop-shadow(0 0 0.5em white);
+  text-shadow: 0 0 0.8em #fff5;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #f9f6ef;
+  display: grid;
+  place-content: center;
+  background-image: radial-gradient(circle at 50% 50%, #2f3040, #1f2020);
+}
+/*
+==========================
+
+		BASE
+
+==========================
+*/
+/* styles.css */
+@import url("./rainbow.css");
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden;
+  min-height: 100%;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: #1e1e1e;
+  text-align: center;
+  font-size: 1em;
+  font-family: Georgia;
+  font-weight: 400;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+==========================
+		MAIN
+==========================
+*/
+.boxcontainer {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  z-index: 10;
+  height: auto;
+  width: 300px;
+  max-width: 95%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  animation: fadeIn 6s ease;
+  animation-fill-mode: forwards;
+}
+
+#dirbox {
+  display: none;
+}
+
+.title {
+  line-height: 1em;
+  margin: 10px 0;
+  color: #a21717;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  width: auto;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.desc {
+  line-height: 25px;
+  margin: 10px 0;
+  color: #680f0f;
+  transition: all 0.5s ease;
+  animation-fill-mode: forwards;
+}
+
+.link {
+  line-height: 25px;
+  margin: 10px 0;
+  color: #808080;
+  transition: filter 0.2s ease, transform 0.4s ease;
+}
+
+.link:hover {
+  filter: brightness(0.6);
+}
+
+.linkcont {
+  margin: 0 auto;
+  width: auto;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  transition: filter 0.2s ease, transform 0.4s ease;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.linksquare {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  transition: all 0.6s ease;
+}
+
+.linksquare:hover {
+  filter: brightness(0.6);
+}
+
+svg,
+i {
+  height: 25px;
+  width: 25px;
+  fill: #7f7f7f;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.clickable {
+  pointer-events: auto;
+  user-select: none;
+  -moz-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+.unclickable {
+  pointer-events: none;
+}
+
+/*
+==========================
+		ANIM
+==========================
+*/
+
+@keyframes slide {
+  0% {
+    transform: translate(0, 2.5em);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* DASDASd */
+body {
+  z-index: 10;
+  background-color: #761919;
+  font-family: system-ui, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  z-index: 10;
+  --bg: #881c1c;
+  --text-height: 300px;
+}
+
+/* deneme */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a1a1a;
+}
+
+.sparkle-text {
+  color: #5c0869;
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmNoY3poeHRuZzJrZTQ0ZHU3bWNpcXlteGY0cHljNnQ0a3JpZmM0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Y4VdSUah9jwzC417Ym/giphy.gif");
+  background-repeat: repeat;
+  background-size: auto 100%;
+  filter: drop-shadow(10px 10px 12px #832c53);
+}

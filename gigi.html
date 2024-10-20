@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+⣿⣿⣿⣿⣿⠃⢀⡾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⣿⣿⢿⢏⣼⣷⢳⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⡿⠒
+⣿⣿⣿⣿⠃⢀⣿⡇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⣿⣿⢏⣾⣿⣿⡼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⠁⠄
+⣿⣟⡫⠉⢠⣶⣤⡄⣉⠛⣿⢿⣿⣿⣿⣿⣿⣿⣿⡇⢹⢏⣾⢿⣛⠛⠃⠙⠯⢿⡯⣿⣿⣿⣿⣿⣿⠿⡄⠄
+⣿⢿⡏⢠⣿⣿⣿⣧⣿⣷⣾⣾⣿⣿⣿⣿⣿⣿⣿⡇⢈⣎⣼⣷⣿⣿⣿⣎⣿⣷⣶⣥⣿⣿⣿⣿⣿⣷⣇⠄
+⣿⡟⢠⣿⣿⣿⣿⣿⡜⣿⣿⣿⣿⣿⣿⠙⣿⣿⣿⡇⣾⣿⣿⣿⣿⣿⣿⣿⣌⠾⡿⣿⣿⣿⣿⣿⣿⣿⣯⠢
+⣿⢁⣾⣿⣿⣿⣿⣿⣷⣹⣿⣿⣿⣿⣿⠄⠘⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣎⢓⣿⣿⣿⡏⠻⡿⣿⣷⣾
+⡏⣼⣿⣿⣿⣿⣿⣿⣿⣷⡵⣿⣿⣿⣿⡇⠄⠘⢿⣺⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡻⣿⣿⣿⡄⠈⠙⢿⣿
+⡰⣿⣿⠯⠍⠙⠛⠷⣯⣿⣿⣎⢿⣿⣿⡇⠄⠄⡈⢻⡟⣿⣿⢿⣿⠿⠿⣿⣿⣿⣿⣿⣎⢟⣿⣿⡄⠄⠄⠉
+⢧⢧⠆⠄⠄⢀⣀⣀⠄⠙⢿⣿⣯⡿⣿⣷⠄⠄⣿⣦⡑⢴⠾⠛⠋⠁⠄⠄⠈⠙⠻⣿⣿⣷⢍⠻⣽⣂⠄⠄
+⣟⠌⣴⣾⣶⣿⣿⣿⣿⣶⣾⣿⣿⣿⣮⡳⠆⠄⢹⣿⣿⡶⠋⣠⠄⢀⣠⣤⣄⣀⡀⠄⠙⣿⣸⣷⣮⣜⠳⠲
+⡟⣿⡼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣮⣀⠘⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣶⣱⣿⣿⣿⣿⣿⣆
+⠈⠑⡽⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡣⣻⣿⣿⣿⣿⣯⡟
+⠄⠄⢻⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣵⣿⣿⣿⣿⣿⣿⣿⣿
+⠄⠄⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠿⠿⠛⠻⢿⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⡿⣫⣞⢏⢋⣵⣾⣿⣿⣿⣿⣿
+⠄⠄⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠄⣀⣠⣤⣤⣀⠈⠄⣿⣿⣿⣿⣿⣿⣭⣬⣷⣾⢏⢶⣿⣿⣿⣿⣿⣿⡿
+⠄⠄⠄⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⡼⣿⣿⣿⣿⣿⣿⣆⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣼⣿⣿⣿⣿⣿⣿⠟⠄
+⠄⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⣿⣿⣷⣽⣿⣿⣿⡿⣫⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⢁⣯⣽⣿⣿⣿⣿⠏⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠉⠻⢿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⣿⣿⣿⡿⣿⡫⠙⠄⠄⢸⣿⣿⣿⣿⣿⠋⠄⠄⢠
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠙⠻⠿⣿⣿⣿⡿⢿⣛⣿⣭⣾⣿⣿⡇⠂⠄⠄⢸⣿⣿⣿⣿⠃⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⡀⠰⣶⣿⣿⣿⣿⣿⣿⣿⠿⠃⠄⢙⡄⡫⣿⣿⣿⠃⠄⠄⠄⠄⠄
+⠄⢀⠄⣤⣤⣄⣀⠄⠄⠄⠄⠄⠄⠄⣾⠄⠄⣿⣿⣿⣿⣿⣿⠛⠁⠄⣠⡴⠛⠇⢹⣿⡯⠫⢀⣀⣀⣀⣀⣠
+⣴⣿⣷⣿⣿⣿⣿⣿⠋⠄⠄⣰⡇⢰⡏⠄⢠⣿⣿⣿⡿⠋⠄⢀⣠⠞⠁⢀⠄⠄⢸⡿⣱⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⠃⠄⠄⢠⣿⣁⣼⡇⠄⢸⣿⡿⠋⠄⢀⣤⠋⠄⣠⣾⡟⠄⠄⠸⣴⣿⣿⣿⣿⣿⣿⣿⣿
+
+ EZGİSS I LOVE YOU <3
+-->
+
+
+<html>
+
+<head>
+    <title>I LOVE YOU</title>
+    <meta name="og:description" content="Ezgi bu mesajımı görüyorsan seni çok seviyorum." />
+    <meta property="og:image" content="./assets/images/newpp.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta property="og:url" content="https://texa.anlayana.com/" />
+    <meta property="og:type" content="TEXA's Website." />
+    <link rel="shortcut icon" href="./assets/images/sarılıkalp.ico" />
+    <meta http-equiv="content-language" content="en" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/gigi.css" />
+
+</head>
+
+<body>
+
+
+    <!--Back Ground-->
+    <canvas id="c"></canvas>
+    <script src="assets/js/gigi.js"></script>
+    <div class="boxcontainer unclickable">
+        <div class="box unclickable" id="box" style="display: block">
+
+            <h2 class="sparkle-text">EZGİ İYİ Kİ VARSIN </h2>
+
+
+        </div>
+    </div>
+</body>
+<script>
+    var b = document.body;
+    var c = document.getElementsByTagName('canvas')[0];
+    var a = c.getContext('2d');
+    document.body.clientWidth; 
+</script>
+
+</html>
