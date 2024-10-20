@@ -98,7 +98,7 @@ body {
 .title {
   line-height: 1em;
   margin: 10px 0;
-  color: #a21717;
+  color: #15011d;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
   width: auto;
   height: auto;
@@ -121,7 +121,7 @@ body {
 .desc {
   line-height: 25px;
   margin: 10px 0;
-  color: #680f0f;
+  color: #260437;
   transition: all 0.5s ease;
   animation-fill-mode: forwards;
 }
@@ -166,7 +166,7 @@ body {
 /* DASDASd */
 body {
   z-index: 10;
-  background-color: #761919;
+  background-color: #190328;
   font-family: system-ui, sans-serif;
   height: 100vh;
   display: flex;
@@ -176,6 +176,6 @@ body {
 
 :root {
   z-index: 10;
-  --bg: #881c1c;
+  --bg: #190328;
   --text-height: 300px;
 }
