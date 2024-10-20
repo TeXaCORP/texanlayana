@@ -166,7 +166,7 @@ body {
 /* DASDASd */
 body {
   z-index: 10;
-  background-color: #190328;
+  background-color: #000000;
   font-family: system-ui, sans-serif;
   height: 100vh;
   display: flex;
@@ -176,6 +176,6 @@ body {
 
 :root {
   z-index: 10;
-  --bg: #190328;
+  --bg: #000000;
   --text-height: 300px;
 }
