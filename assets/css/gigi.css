@@ -80,11 +80,13 @@ body {
 .box {
   z-index: 10;
   height: auto;
-  width: 300px;
-  max-width: 95%;
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
   display: inline-block;
   position: relative;
   text-align: center;
+  transform: translate(0px, 210px);
   animation: fadeIn 6s ease;
   animation-fill-mode: forwards;
 }
@@ -229,8 +231,8 @@ body {
   font-family: Georgia;
   font-size: 25px;
   font-weight: bold;
-  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmNoY3poeHRuZzJrZTQ0ZHU3bWNpcXlteGY0cHljNnQ0a3JpZmM0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Y4VdSUah9jwzC417Ym/giphy.gif");
-  background-repeat: repeat;
+  background-image: url("");
+  background-repeat: no-repeat;
   background-size: auto 100%;
   filter: drop-shadow(10px 10px 12px #832c53);
 }
