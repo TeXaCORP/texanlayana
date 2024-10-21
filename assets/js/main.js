@@ -1,4 +1,11 @@
 //made with love .
+//https://open.spotify.com/track/300xFtOH49F80uB7BSAsEf
+/*
+ㅤ ∧__∧
+（｀•ω• )づ--∧
+（つ　 /( •ω•。)
+   しーＪ (nnノ) ~pat pat
+*/
 /*
 ==========================
 
