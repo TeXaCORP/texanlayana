@@ -34,7 +34,7 @@ function activateEasterEgg() {
     "ε(´｡•_•`)っ 💔"
   );
   setTimeout(() => {
-    window.location.href = "./gigi.html";
+    window.location.href = "/gigi";
   }, 2500);
 }
 
