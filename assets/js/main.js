@@ -1,4 +1,11 @@
 //made with love .
+//https://open.spotify.com/track/300xFtOH49F80uB7BSAsEf
+/*
+ㅤ ∧__∧
+（｀•ω• )づ--∧
+（つ　 /( •ω•。)
+   しーＪ (nnノ) ~pat pat
+*/
 /*
 ==========================
 
@@ -34,7 +41,7 @@ function activateEasterEgg() {
     "ε(´｡•_•`)っ 💔"
   );
   setTimeout(() => {
-    window.location.href = "./gigi.html";
+    window.location.href = "/gigi";
   }, 2500);
 }
 
